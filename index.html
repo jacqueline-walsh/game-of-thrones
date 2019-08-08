@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-
+<script src="http://d3js.org/d3.v3.js"></script>
 <style>
 
 .tooltip {
@@ -43,7 +43,8 @@ text {
 </style>
 <body>
 <script>
-
+    
+window.addEventListener('load', function () {
     // get the data
     d3.csv("battles.csv", function (error, links) {
 
@@ -193,9 +194,8 @@ text {
         }
 
     });
-
+});
 </script>
-<script src="http://d3js.org/d3.v3.js"></script>
 </body>
 
 </html>
