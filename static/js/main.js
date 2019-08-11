@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
 
     //setup our window
     var width = window.innerWidth,
-      height = window.innerHeight * 0.9;
+      height = window.innerHeight;
 
     //build the layout
     var force = d3.layout
